@@ -27,6 +27,10 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        
+        document.addEventListener("resume", function () {
+            codePush.sync();
+        });
     },
     // deviceready Event Handler
     //
@@ -34,6 +38,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        codePush.sync();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
