@@ -35,9 +35,6 @@
     <feature name="FileTransfer">
         <param name="ios-package" value="CDVFileTransfer" />
     </feature>
-    <feature name="Zip">
-        <param name="ios-package" value="ZipPlugin" />
-    </feature>
     <feature name="Notification">
         <param name="ios-package" value="CDVNotification" />
     </feature>
@@ -48,8 +45,12 @@
         <param name="ios-package" value="CodePush" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Zip">
+        <param name="ios-package" value="ZipPlugin" />
+    </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <preference name="CodePushDeploymentKey" value="_7ETdLk2v5SRIuBnSwf_E_sUZfrXVkqLFaoO-" />
     <name>CodePushTest</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
