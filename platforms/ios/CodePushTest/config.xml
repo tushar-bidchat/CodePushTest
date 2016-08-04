@@ -50,7 +50,7 @@
     </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <preference name="CodePushDeploymentKey" value="KBMHlVETqEC25XRDjgRKvMKYKKb0VkqLFaoO-" />
+    <preference name="CodePushDeploymentKey" value="6YcSKOii0884HXh9OLFPtyJPMGfHVkqLFaoO-" />
     <name>CodePushTest</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
