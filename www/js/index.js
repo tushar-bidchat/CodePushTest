@@ -34,7 +34,8 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        codePush.sync();
+//        codePush.sync();
+        codePush.sync(null, { updateDialog: true, installMode: InstallMode.IMMEDIATE });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
