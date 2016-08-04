@@ -40,9 +40,6 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.bidchat.codepushtest"
-        },
         "code-push": {
             "PACKAGE_NAME": "com.bidchat.codepushtest"
         },
@@ -65,6 +62,9 @@
             "PACKAGE_NAME": "com.bidchat.codepushtest"
         },
         "cordova-plugin-code-push": {
+            "PACKAGE_NAME": "com.bidchat.codepushtest"
+        },
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.bidchat.codepushtest"
         }
     },
